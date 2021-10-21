@@ -1,0 +1,59 @@
+baseURL = 'https://visheshsinha.github.io/'
+languageCode = 'en-us'
+title = "Home"
+theme = "hugo-PaperMod"
+copyright = "© 2021 [Vishesh Sinha](/)"
+
+
+[params.profileMode]
+enabled = true
+title = "Vishesh Sinha"
+subtitle = "Developer | Engineering Junior"
+imageTitle = "profile-image"
+imageWidth = 180
+imageHeight = 220
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/blogs"
+
+  [[params.profileMode.buttons]]
+  name = "Resume"
+  url = "resume.pdf"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/visheshsinha"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/visheshsinha/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto: visheshsinha801@gmail.com"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[menu]
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = -110
+[[menu.main]]
+  name = 'Projects'
+  url = '/projects'
+  weight = -100
+[[menu.main]]
+  name = 'Tags'
+  url = 'tags/'
+  weight = -100
+[[menu.main]]
+  name = 'Search'
+  url = '/search'
+  weight = -100
+
+
+
+
