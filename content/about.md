@@ -8,6 +8,8 @@ draft: false
 ### You can also find me on: 
 * [LinkedIn](https://www.linkedin.com/in/visheshsinha/)
 * [Github](https://github.com/visheshsinha)
+* [LeetCode](https://leetcode.com/visheshsinha/)
+* [CodeChef](https://www.codechef.com/users/visheshsinha)
 * [Kaggle](https://www.kaggle.com/visheshsinha)
 * [Devfolio](https://devfolio.co/@visheshsinha)
 
